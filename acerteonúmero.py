@@ -44,7 +44,7 @@ def main():
 					clear()
 					print("ESTATÍSTICAS\n")
 					print(f"Número de tentativas: {tentativas}")
-					voltar = int(input("\nDigite 0 para voltar: "))
+					voltar = lerint("\nDigite 0 para voltar: ")
 					if voltar == 0:
 						clear()
 						break
